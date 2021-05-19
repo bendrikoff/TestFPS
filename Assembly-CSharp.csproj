@@ -56,6 +56,7 @@
      <Compile Include="Assets\FPSInput.cs" />
      <Compile Include="Assets\MouseLook.cs" />
      <Compile Include="Assets\RayShooter.cs" />
+     <Compile Include="Assets\ReactiveTarget.cs" />
      <Compile Include="Assets\Spin.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>C:/Users/admin/TestFPS/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
