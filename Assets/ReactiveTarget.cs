@@ -6,6 +6,10 @@ public class ReactiveTarget : MonoBehaviour
 {
     public void ReactToHit(){
         StartCoroutine(Die());
+        WanderingAI behaviour = GetComponent<WanderingAI>();
+        if(behaviour!=null){
+            behaviour.SetAlive(false);
+        }
     }
     private IEnumerator Die(){
         this.transform.Rotate(-75,0,0);
