@@ -12,7 +12,7 @@ public class Fireball : MonoBehaviour
 
         if(player!=null)
         {
-            print("player hit");
+            player.Hurt(damage);
         }
         Destroy(this.gameObject);
         
